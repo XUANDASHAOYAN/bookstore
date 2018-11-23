@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+
+#registerDiv{
+    background-color: whitesmoke;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+#registerDiv table{
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin-left: 85px;
+    padding-top: 20px;
+}
+#registerDiv input{
+    width: 200px;
+}
+
+#registerDiv td#right{
+    padding-left: 20px;
+}
+
+tr#gender img{
+    width: 23px;
+    height: 23px;
+}
+
+tr#gender label#left{
+    margin-left: 25px;
+}
+
+tr#gender label#right{
+    margin-left: 65px;
+}
+
+button#registB{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.registerErrorMessageDiv{
+    display: none;
+}

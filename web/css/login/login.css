@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    font-family: 微软雅黑;
+}
+#loginDiv{
+    margin-left: 45px;
+    margin-top: -3px;
+}
+#simpleLogo{
+    float: left;
+}
+#simpleLogo img{
+    width: 360px;
+    height: 480px;
+}
+#login{
+    float: right;
+    background-color: whitesmoke;
+    width: 900px;
+    height: 480px;
+    margin-right: 40px;
+}
+.loginForm{
+    margin-left: 260px;
+    margin-top: 130px;
+}
+.loginForm table {
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.loginForm input{
+    width: 300px;
+}
+
+.loginForm select{
+    width: 300px;
+}
+
+.loginForm td#right{
+    padding-left: 20px;
+}
+
+button#loginB{
+    margin-top: 32px;
+    margin-left: 120px;
+}
+
+button#registB{
+    margin-top: 32px;
+    margin-left: 90px;
+}
+
+.loginErrorMessageDiv{
+    display: none;
+}

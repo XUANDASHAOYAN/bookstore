@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.sc.mapper.BorrowMapper">
+    <insert id="add" keyColumn="id" keyProperty="id" useGeneratedKeys="true" parameterType="Borrow">
+        insert into borrow
+        (rid,bid,num,days,borrow_date)
+        values
+        (#{rid,jdbcType=INTEGER},#{bid,jdbcType=INTEGER},#{num,jdbcType=INTEGER},#{days,jdbcType=INTEGER},
+        #{borrow_date,jdbcType=TIMESTAMP})
+    </insert>
+
+    <select id="list" resultType="Borrow">
+        select * from borrow where rid=#{rid}
+    </select>
+
+    <select id="getByMore" resultType="Borrow">
+        select * from borrow where rid=#{rid}
+        <if test="bid != null">
+            and bid=#{bid}
+        </if>
+    </select>
+
+    <select id="getById" resultType="Borrow">
+        select * from borrow where id=#{id}
+    </select>
+
+    <delete id="deleteById">
+        delete from borrow where id=#{id}
+    </delete>
+</mapper>

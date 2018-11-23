@@ -1,0 +1,106 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+span#title_img #simpleLogo {
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -35px;
+}
+
+span#title_content {
+    float: right;
+    margin-right: 850px;
+}
+
+
+#navigation_bar{
+    background-color: whitesmoke;
+    font-size: 17px;
+    position: relative;
+    left: 0px;
+    top: 93px;
+    height: 50px;
+}
+
+div span#pull_left{
+    float: left;
+    margin-left: -130px;
+    margin-top: -68px;
+}
+
+div span#pull_right{
+    float: right;
+    margin-right: 65px;
+    margin-top: -68px;
+}
+
+div#navigation_bar a{
+    color: black;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+div#name .btn{
+    background-color: whitesmoke;
+    border: none;
+    font-size: 17px;
+    margin-top: -5px;
+}
+
+#name{
+    margin-left:50px ;
+}
+
+a{
+    cursor:pointer;
+}
+
+#nav{
+    margin-top: 100px;
+    margin-left: 125px;
+}
+
+#editDiv{
+    margin-left: 200px;
+}
+
+#editDiv input{
+    width: 150px;
+    margin-left: 63px;
+}
+
+#editDiv table{
+    width: 900px;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+span#right{
+    padding-left: 2px;
+}
+
+#submit{
+    margin-left: 330px;
+    margin-top: 100px;
+}
+
+#goBack{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+div.MessageDiv{
+    display: none;
+    width: 250px;
+    margin-left: 25px;
+}
+
+#to_submit{
+    display: none;
+}
+
